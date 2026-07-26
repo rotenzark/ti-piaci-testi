@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ti Piaci — parrucchiere a Ca' Granda, Milano · taglio, colore, cheratina</title>
+<meta name="description" content="Ti Piaci, viale Fulvio Testi 89, Ca' Granda, Milano. Taglio, piega, colore, colpi di sole e lisciante alla cheratina, per lei e per lui. Si prenota per telefono: 02 39669870.">
+<link rel="canonical" href="https://rotenzark.github.io/ti-piaci-testi/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ti Piaci — niente che non serve">
+<meta property="og:description" content="Parrucchiere a Ca' Granda, Milano. Taglio, colore, cheratina. Si prenota per telefono.">
+<meta property="og:url" content="https://rotenzark.github.io/ti-piaci-testi/">
+<meta property="og:image" content="https://rotenzark.github.io/ti-piaci-testi/img/og.jpg">
+<meta property="og:locale" content="it_IT">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ti Piaci — niente che non serve">
+<meta name="twitter:description" content="Parrucchiere a Ca' Granda, Milano. Taglio, colore, cheratina. Si prenota per telefono.">
+<meta name="twitter:image" content="https://rotenzark.github.io/ti-piaci-testi/img/og.jpg">
+<meta name="theme-color" content="#8E2A5F">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="img/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Livvic:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css?v=1">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org","@type":"HairSalon","name":"Ti Piaci",
+  "description":"Parrucchiere per lei e per lui a Ca' Granda, Milano. Taglio, piega, colore, colpi di sole e lisciante alla cheratina.",
+  "url":"https://rotenzark.github.io/ti-piaci-testi/",
+  "telephone":"+39 02 39669870",
+  "priceRange":"€€",
+  "image":"https://rotenzark.github.io/ti-piaci-testi/img/salone.jpg",
+  "address":{"@type":"PostalAddress","streetAddress":"Viale Fulvio Testi 89","addressLocality":"Milano","postalCode":"20162","addressCountry":"IT"},
+  "openingHoursSpecification":[
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"08:30","closes":"18:00"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+    {"@type":"Question","name":"Come si prenota?","acceptedAnswer":{"@type":"Answer","text":"Per telefono, allo 02 39669870. Non serve nessuna app e non c'è nessuna piattaforma di mezzo: si chiama e si fissa l'appuntamento."}},
+    {"@type":"Question","name":"Che giorni siete aperti?","acceptedAnswer":{"@type":"Answer","text":"Dal martedì al sabato, dalle 8:30 alle 18:00. Lunedì e domenica siamo chiusi."}},
+    {"@type":"Question","name":"Fate anche i capelli agli uomini e ai bambini?","acceptedAnswer":{"@type":"Answer","text":"Sì. Il salone è per lei e per lui, e c'è anche il taglio per i bambini."}},
+    {"@type":"Question","name":"Quanto dura una stiratura alla cheratina?","acceptedAnswer":{"@type":"Answer","text":"È il trattamento più lungo che facciamo: circa due ore e mezza, piega compresa. Meglio prenderlo di mattina."}},
+    {"@type":"Question","name":"Fate il colore e le schiariture?","acceptedAnswer":{"@type":"Answer","text":"Sì, ed è la parte più ampia di quello che facciamo: colore, colpi di sole e schiariture. Se non sai bene cosa vuoi, se ne parla prima davanti allo specchio."}},
+    {"@type":"Question","name":"Dove siete esattamente?","acceptedAnswer":{"@type":"Answer","text":"In viale Fulvio Testi 89, in zona Ca' Granda a Milano, sul lato dei numeri dispari."}}
+  ]
+}
+</script>
+</head>
+<body>
+
+<div id="intro" class="intro" aria-hidden="true">
+  <p class="intro__nome">Ti Piaci</p>
+  <button type="button" id="introSkip" class="intro__skip" data-i18n="intro.skip">salta</button>
+</div>
+
+<header id="site-header" class="testata">
+  <a class="marchio" href="#cima">Ti Piaci</a>
+  <nav id="mainNav" class="nav" aria-label="Menu principale">
+    <a href="#cosa" data-i18n="nav.cosa">Cosa facciamo</a>
+    <a href="#salone" data-i18n="nav.salone">Il salone</a>
+    <a href="#voci" data-i18n="nav.voci">Recensioni</a>
+    <a href="#dove" data-i18n="nav.dove">Dove siamo</a>
+  </nav>
+  <div class="testata__coda">
+    <div class="lingue" role="group" aria-label="Lingua / Language">
+      <button type="button" data-lang="it" class="is-on" aria-pressed="true">IT</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+    <a class="bottone bottone--pieno" href="tel:+390239669870" data-i18n="cta.prenota">Prenota</a>
+    <button type="button" id="burger" class="burger" aria-expanded="false" aria-controls="mobile-menu" aria-label="Apri il menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div id="mobile-menu" class="drawer" hidden>
+  <a href="#cosa" data-i18n="nav.cosa">Cosa facciamo</a>
+  <a href="#salone" data-i18n="nav.salone">Il salone</a>
+  <a href="#voci" data-i18n="nav.voci">Recensioni</a>
+  <a href="#dove" data-i18n="nav.dove">Dove siamo</a>
+  <a class="drawer__cta" href="tel:+390239669870">02 39669870</a>
+</div>
+
+<!-- la ciocca: una linea curva continua che scende lungo tutta la pagina -->
+<svg class="ciocca" id="ciocca" viewBox="0 0 120 1400" preserveAspectRatio="none" aria-hidden="true">
+  <path class="ciocca__l" d="M96 0 C40 150 100 260 52 400 C10 528 96 620 60 760 C26 892 100 980 46 1120 C8 1224 78 1310 62 1400"
+        fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+</svg>
+
+<main id="cima">
+
+  <!-- ══ HERO: la frase di una cliente ══ -->
+  <section class="apertura" aria-labelledby="apertura-titolo">
+    <p class="apertura__eti" data-i18n="hero.eti">Parrucchiere per lei e per lui · viale Fulvio Testi 89 · Ca' Granda, Milano</p>
+    <h1 id="apertura-titolo" class="apertura__frase">
+      <span class="fr">Niente</span>
+      <span class="fr fr--forte">che non serve.</span>
+    </h1>
+    <p class="apertura__fonte" data-i18n="hero.fonte">«Ha trattato molto bene i miei capelli, <b>evitando aggiunte superflue</b> come lacca o creme varie.» — e un'altra cliente scrive che qui <b>non si cerca di proporre</b> quello che non hai chiesto. Sono due recensioni diverse, che dicono la stessa cosa.</p>
+    <p class="stelle"><span data-i18n="hero.stelle"><b>4,8</b> su 71 recensioni Google · <b>4,7</b> su 226 recensioni Treatwell</span></p>
+  </section>
+
+  <!-- ══ LA PRENOTAZIONE — ciò che oggi manca ══ -->
+  <section class="prenota" aria-labelledby="prenota-titolo">
+    <div class="prenota__box">
+      <p class="occhiello occhiello--chiaro" data-i18n="pre.eti">Per fissare un appuntamento</p>
+      <h2 id="prenota-titolo" data-i18n="pre.titolo">Si prenota al telefono</h2>
+      <p data-i18n="pre.p">Nessuna app, nessuna piattaforma di mezzo, nessuna commissione. Si chiama, si dice quando si può, e l'appuntamento è preso.</p>
+      <p class="prenota__num"><a href="tel:+390239669870">02 39669870</a></p>
+      <p class="prenota__stato"><span id="orarioStato">Controllo gli orari…</span></p>
+    </div>
+  </section>
+
+  <!-- ══ COSA FACCIAMO ══ -->
+  <section id="cosa" class="cosa" aria-labelledby="cosa-titolo">
+    <div class="cosa__testa reveal">
+      <p class="occhiello" data-i18n="cos.eti">Cosa facciamo</p>
+      <h2 id="cosa-titolo" data-i18n="cos.titolo">Il colore è la parte più grande</h2>
+      <p data-i18n="cos.p">Fra tutto quello che facciamo, la voce più ampia è il colore: tinta, colpi di sole, schiariture. Poi il taglio e la piega, i trattamenti per i capelli, e la stiratura alla cheratina — che è il lavoro più lungo di tutti.</p>
+    </div>
+    <div class="cosa__griglia">
+      <article class="voce-s reveal">
+        <h3 data-i18n="cos.1t">Colore</h3>
+        <p data-i18n="cos.1p">Tinta, colpi di sole, schiariture. Se non hai ancora deciso, se ne parla prima davanti allo specchio.</p>
+      </article>
+      <article class="voce-s reveal">
+        <h3 data-i18n="cos.2t">Taglio e piega</h3>
+        <p data-i18n="cos.2p">Tagli classici e moderni. Anche solo shampoo e piega, quando serve rimettersi in ordine in fretta.</p>
+      </article>
+      <article class="voce-s reveal">
+        <h3 data-i18n="cos.3t">Cheratina</h3>
+        <p data-i18n="cos.3p">La stiratura con la piega è il trattamento più lungo: <b>due ore e mezza</b>. Meglio prenderla di mattina.</p>
+      </article>
+      <article class="voce-s reveal">
+        <h3 data-i18n="cos.4t">Trattamenti</h3>
+        <p data-i18n="cos.4p">Cure specifiche per i capelli, compreso l'effetto rimpolpante. E la permanente, per chi la vuole ancora.</p>
+      </article>
+      <article class="voce-s reveal">
+        <h3 data-i18n="cos.5t">Per lui</h3>
+        <p data-i18n="cos.5p">Il salone è per lei <b>e per lui</b>. Anche il taglio uomo, senza appuntamenti separati.</p>
+      </article>
+      <article class="voce-s reveal">
+        <h3 data-i18n="cos.6t">Per i bambini</h3>
+        <p data-i18n="cos.6p">C'è anche il taglio bambini. Spesso arrivano con la mamma e si fanno insieme.</p>
+      </article>
+    </div>
+    <p class="cosa__nota reveal" data-i18n="cos.nota">Per i prezzi conviene chiedere al telefono: dipendono dalla lunghezza e da cosa serve davvero.</p>
+  </section>
+
+  <!-- ══ IL SALONE ══ -->
+  <section id="salone" class="salone" aria-labelledby="salone-titolo">
+    <div class="salone__testo reveal">
+      <p class="occhiello" data-i18n="sal.eti">Il posto</p>
+      <h2 id="salone-titolo" data-i18n="sal.titolo">Pareti lilla e due poltrone</h2>
+      <p data-i18n="sal.p1">È un salone piccolo e luminoso su viale Testi. Nelle recensioni le tre cose che vengono votate a parte sono <b>ambiente</b>, <b>pulizia</b> e <b>staff</b>: sono esattamente le tre che si notano entrando.</p>
+      <p data-i18n="sal.p2">Dietro c'è Carmen, che il salone lo tiene da anni e che sui tagli si aggiorna di continuo.</p>
+    </div>
+    <div class="salone__foto">
+      <button type="button" class="shot reveal" data-full="img/salone.jpg"><img src="img/salone.jpg" width="720" height="480" decoding="async" alt="L'interno del salone: pareti lilla, due poltrone lavaggio, divano crema e bancone bianco"></button>
+      <button type="button" class="shot reveal" data-full="img/al-lavoro.jpg"><img src="img/al-lavoro.jpg" width="720" height="480" decoding="async" alt="Il salone visto dall'ingresso, con l'espositore di bigiotteria e la parete dei prodotti"></button>
+    </div>
+  </section>
+
+  <!-- ══ RECENSIONI ══ -->
+  <section id="voci" class="voci reveal" aria-labelledby="voci-titolo">
+    <p class="occhiello" data-i18n="voc.eti">Lo dicono loro</p>
+    <h2 id="voci-titolo" data-i18n="voc.titolo">Due volte quasi cinque stelle</h2>
+    <ul class="voci__lista">
+      <li class="voce"><p>«Servizio veloce ma curato, la parrucchiera aveva davvero una buona mano. Ha trattato molto bene i miei capelli, evitando aggiunte superflue (come lacca o creme varie). Prezzo molto conveniente!»</p><span class="voce__chi">Vanessa Molteni · Google</span></li>
+      <li class="voce"><p>«Carmen è ormai la mia parrucchiera da anni, scoperta per caso dopo diversi tentativi milanesi insoddisfacenti nel rapporto con i clienti o nei risultati o nel prezzo eccessivo e immotivato. Attenta alle richieste.»</p><span class="voce__chi">Veruska Motta · Google</span></li>
+      <li class="voce"><p>«Ambiente molto familiare ed allegro. Esperienza molto positiva che ripeterò sicuramente.»</p><span class="voce__chi">Marina · Treatwell</span></li>
+      <li class="voce"><p>«Ottima esperienza, relax e competenza»</p><span class="voce__chi">Silvia · Treatwell</span></li>
+      <li class="voce"><p>«Puntuale, professionale e competente.»</p><span class="voce__chi">Spataro · Treatwell</span></li>
+    </ul>
+    <p class="voci__nota" data-i18n="voc.nota"><b>4,8 su 71</b> recensioni Google e <b>4,7 su 226</b> recensioni verificate Treatwell: due conteggi diversi, raccolti in due posti diversi.</p>
+  </section>
+
+  <!-- ══ DOVE ══ -->
+  <section id="dove" class="dove" aria-labelledby="dove-titolo">
+    <div class="dove__testo reveal">
+      <p class="occhiello" data-i18n="dov.eti">Dove siamo</p>
+      <h2 id="dove-titolo" data-i18n="dov.titolo">Viale Fulvio Testi 89</h2>
+      <p data-i18n="dov.p">In zona <b>Ca' Granda</b>, sul viale. L'insegna è fucsia, non si sbaglia.</p>
+      <table class="orari">
+        <caption data-i18n="dov.cap">Orari di apertura</caption>
+        <tbody>
+          <tr data-day="1" class="riposo"><th scope="row" data-i18n="g.lun">Lunedì</th><td data-i18n="g.chiuso">chiuso</td></tr>
+          <tr data-day="2"><th scope="row" data-i18n="g.mar">Martedì</th><td>08:30 – 18:00</td></tr>
+          <tr data-day="3"><th scope="row" data-i18n="g.mer">Mercoledì</th><td>08:30 – 18:00</td></tr>
+          <tr data-day="4"><th scope="row" data-i18n="g.gio">Giovedì</th><td>08:30 – 18:00</td></tr>
+          <tr data-day="5"><th scope="row" data-i18n="g.ven">Venerdì</th><td>08:30 – 18:00</td></tr>
+          <tr data-day="6"><th scope="row" data-i18n="g.sab">Sabato</th><td>08:30 – 18:00</td></tr>
+          <tr data-day="0" class="riposo"><th scope="row" data-i18n="g.dom">Domenica</th><td data-i18n="g.chiuso2">chiuso</td></tr>
+        </tbody>
+      </table>
+      <p class="dove__azioni">
+        <a class="bottone bottone--pieno" href="tel:+390239669870" data-i18n="dov.tel">Prenota: 02 39669870</a>
+        <a class="bottone" href="https://www.google.com/maps/search/Ti+Piaci+Viale+Fulvio+Testi+89+Milano" target="_blank" rel="noopener" data-i18n="dov.mappa">Apri le indicazioni</a>
+      </p>
+    </div>
+    <div class="dove__lato reveal">
+      <button type="button" class="shot dove__facciata" data-full="img/facciata.jpg"><img src="img/facciata.jpg" width="720" height="480" decoding="async" alt="L'insegna fucsia Ti Piaci su viale Fulvio Testi, con la vetrina dei prodotti"></button>
+      <iframe title="Mappa di Ti Piaci, viale Fulvio Testi 89, Milano" src="https://www.google.com/maps?q=Viale+Fulvio+Testi+89+20162+Milano&output=embed" width="600" height="300" style="border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <!-- ══ FAQ ══ -->
+  <section id="faq" class="faq reveal" aria-labelledby="faq-titolo">
+    <h2 id="faq-titolo" data-i18n="faq.titolo">Quello che ci chiedono al telefono</h2>
+    <div class="faq__lista">
+      <details><summary data-i18n="faq.q1">Come si prenota?</summary><p data-i18n="faq.a1">Per telefono, allo <b>02 39669870</b>. Non serve nessuna app e non c'è nessuna piattaforma di mezzo: si chiama e si fissa l'appuntamento.</p></details>
+      <details><summary data-i18n="faq.q2">Che giorni siete aperti?</summary><p data-i18n="faq.a2">Dal <b>martedì al sabato</b>, dalle 8:30 alle 18:00. Lunedì e domenica siamo chiusi.</p></details>
+      <details><summary data-i18n="faq.q3">Fate anche i capelli agli uomini e ai bambini?</summary><p data-i18n="faq.a3">Sì. Il salone è <b>per lei e per lui</b>, e c'è anche il taglio per i bambini.</p></details>
+      <details><summary data-i18n="faq.q4">Quanto dura una stiratura alla cheratina?</summary><p data-i18n="faq.a4">È il trattamento più lungo che facciamo: <b>circa due ore e mezza</b>, piega compresa. Meglio prenderlo di mattina.</p></details>
+      <details><summary data-i18n="faq.q5">Fate il colore e le schiariture?</summary><p data-i18n="faq.a5">Sì, ed è la parte più ampia di quello che facciamo. Se non sai bene cosa vuoi, se ne parla prima davanti allo specchio.</p></details>
+      <details><summary data-i18n="faq.q6">Dove siete esattamente?</summary><p data-i18n="faq.a6">In viale Fulvio Testi 89, in zona <b>Ca' Granda</b>, sul lato dei numeri dispari.</p></details>
+    </div>
+  </section>
+
+</main>
+
+<footer class="chiusa">
+  <div class="chiusa__riga">
+    <div>
+      <p class="chiusa__nome">Ti Piaci</p>
+      <p data-i18n="foot.ind">Parrucchiere per lei e per lui<br>Viale Fulvio Testi 89<br>20162 Milano · Ca' Granda</p>
+      <p><a href="tel:+390239669870">02 39669870</a></p>
+    </div>
+    <div>
+      <p data-i18n="foot.orari">Martedì – sabato<br>08:30 – 18:00<br><b>Lunedì e domenica chiuso</b></p>
+    </div>
+  </div>
+  <p class="chiusa__nota" data-i18n="foot.nota">Sito dimostrativo realizzato da Bespoke Studio con dati pubblici della scheda Treatwell del salone. Servizi, prezzi e orari da confermare al telefono.</p>
+</footer>
+
+<div class="barra" id="actionBar">
+  <a href="tel:+390239669870" data-i18n="bar.prenota">Prenota</a>
+  <a href="#cosa" data-i18n="bar.cosa">Servizi</a>
+  <a href="#dove" data-i18n="bar.dove">Dove</a>
+</div>
+
+<div id="lightbox" class="lightbox" hidden>
+  <button type="button" id="lightboxClose" class="lightbox__x" aria-label="Chiudi">×</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="js/main.js?v=1"></script>
+</body>
+</html>
